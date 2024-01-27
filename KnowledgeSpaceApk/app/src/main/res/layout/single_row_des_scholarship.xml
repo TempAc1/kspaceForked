@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="200dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearLaySingleRdScholarship"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTxtVSingleRdScholarshipAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Scholarship Title" />
+
+        <ImageView
+            android:id="@+id/imgVSingleRdScholarshipAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:maxHeight="200dp"
+            tools:srcCompat="@drawable/fest" />
+
+        <TextView
+            android:id="@+id/linkTxtVSingleRdScholarshipAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Scholarship Link/Description" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

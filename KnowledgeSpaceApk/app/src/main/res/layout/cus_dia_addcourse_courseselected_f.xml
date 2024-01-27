@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="#F4F4F4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/setTotalQuesCusDiaQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Course Title"
+                android:inputType="textPersonName"
+                android:minHeight="50dp" />
+
+            <EditText
+                android:id="@+id/setDurationCusDiaQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Course Description"
+                android:inputType="textPersonName"
+                android:minHeight="50dp" />
+
+            <EditText
+                android:id="@+id/courseGuideAddCourseDialogCourseF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Course Mentor"
+                android:inputType="textPersonName"
+                android:minHeight="50dp" />
+
+            <EditText
+                android:id="@+id/courseNameTvAddModuleCourseSelectedF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Total Modules"
+                android:inputType="number"
+                android:maxLength="2"
+                android:minHeight="50dp"
+                android:padding="5dp"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/postBtnCusDiaDisPanelMainScF"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="#F8F3F3"
+                android:backgroundTint="#EEEEA5"
+                android:gravity="center"
+                android:minHeight="50dp"
+                android:text="ADD COURSE" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cancelBtnCusDiaAddDiscussion"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnBookK"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_cancel_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

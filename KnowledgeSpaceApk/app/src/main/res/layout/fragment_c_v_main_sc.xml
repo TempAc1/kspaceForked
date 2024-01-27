@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    tools:context=".CV.CVMainScF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Create Your Resume At FingerTip"
+                android:textSize="40sp" />
+
+            <View
+                android:id="@+id/divider35"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="?android:attr/listDivider"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Enter Your Name"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/pNameEditTvCvMainScF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:capitalize="words"
+                android:hint="Enter name here"
+                android:maxLines="2"
+                android:minHeight="53dp"
+                android:paddingBottom="5dp"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Select Picture"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/pImgVCvMainScF"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                app:srcCompat="@drawable/ic_baseline_person_24" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Enter Address"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/pAddressEditTvCvMainScF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:capitalize="words"
+                android:ems="10"
+                android:hint="Enter address here"
+                android:inputType="textPostalAddress"
+                android:minHeight="53dp"
+                android:paddingBottom="5dp"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Enter Phone number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/pPhoneEditTvCVMainScF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:hint="Enter phone number here"
+                android:inputType="phone"
+                android:minHeight="53dp"
+                android:paddingBottom="5dp"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Enter Your Email"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/pEmailEditTvCVMainScF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:hint="Enter email here"
+                android:inputType="textEmailAddress"
+                android:minHeight="53dp"
+                android:paddingBottom="5dp"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Enter Your LinkedIn Id"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/pLinkedInLinkEditTvCVMainScF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:ems="10"
+                android:hint="Enter linked id link here"
+                android:inputType="textPersonName"
+                android:minHeight="53dp"
+                android:paddingBottom="5dp"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/nextPerDetailsPageButtonCVMainScF"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:drawableTint="#F8F4F4"
+                android:minHeight="53dp"
+                android:text="Next Page"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

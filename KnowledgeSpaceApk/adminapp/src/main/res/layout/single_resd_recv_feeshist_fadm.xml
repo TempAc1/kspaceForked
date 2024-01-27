@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLaySingleRDRecVFeesHistFAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        app:alignmentMode="alignBounds"
+        app:columnCount="2"
+        app:rowOrderPreserved="false"
+        app:useDefaultMargins="true">
+
+        <TextView
+            android:id="@+id/r1c1SingleResDFeesHistFAdm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:hint="Order Id : 25614"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/r1c2SingleResDFeesHistFAdm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:hint="Time n Date"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/r2c1SingleResDFeesHistFAdm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:hint="Type of Fees Paid"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/r2c2SingleResDFeesHistFAdm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:hint="Amount "
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_columnWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgVLinearLaySingleRDRecVFeesHistFAdm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/approved" />
+
+        <TextView
+            android:id="@+id/feesStatusTvSingleRdRecVFeesHistFAdm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="Fee Status : Pass"
+            android:maxLength="1"
+            android:padding="10dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/materialCardVSingleRDRecVFeesResultFeesActAdm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/stdIdTvSingleRDRecVFeesResultFeesActAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Id"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/divider16"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/stdNameTvSingleRDRecVFeesResultFeesActAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/feeAmountPaidTvSingleRDRecVFeesResultFeesActAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fee Amount Paid"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginRight="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLyMainAttendanceAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iVPersonContactAct"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="0.7"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tVPNameContactAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingBottom="2dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/tVPNoContactAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingBottom="2dp"
+                    android:text="TextView" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

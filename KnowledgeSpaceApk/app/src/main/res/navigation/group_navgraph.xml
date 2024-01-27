@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/group_navgraph"
+    app:startDestination="@id/groupOverviewF">
+
+    <fragment
+        android:id="@+id/groupOverviewF"
+        android:name="com.example.knowledgespaceapk.GroupAct.GroupOverviewF"
+        android:label="fragment_group_overview"
+        tools:layout="@layout/fragment_group_overview" >
+        <action
+            android:id="@+id/action_groupOverviewF_to_courseSelectedF"
+            app:destination="@id/courseSelectedF" />
+        <action
+            android:id="@+id/action_groupOverviewF_to_quizesMainSc"
+            app:destination="@id/quizesMainSc" />
+        <action
+            android:id="@+id/action_groupOverviewF_to_discussionPanelMainScF"
+            app:destination="@id/discussionPanelMainScF" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseSelectedF"
+        android:name="com.example.knowledgespaceapk.GroupAct.CourseSelectedF.CourseSelectedF"
+        android:label="fragment_course_selected"
+        tools:layout="@layout/fragment_course_selected" >
+        <action
+            android:id="@+id/action_courseSelectedF_to_specificChapterDetailsF"
+            app:destination="@id/specificChapterDetailsF" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizesMainSc"
+        android:name="com.example.knowledgespaceapk.GroupAct.GrpQuizes.QuizesMainSc"
+        android:label="fragment_quizes_main_sc"
+        tools:layout="@layout/fragment_quizes_main_sc" />
+    <fragment
+        android:id="@+id/discussionPanelMainScF"
+        android:name="com.example.knowledgespaceapk.GroupAct.DiscussionPanel.DiscussionPanelMainScF"
+        android:label="fragment_discussion_panel_main_sc"
+        tools:layout="@layout/fragment_discussion_panel_main_sc" />
+    <fragment
+        android:id="@+id/specificChapterDetailsF"
+        android:name="com.example.knowledgespaceapk.GroupAct.SpecificChapDetailsF.SpecificChapterDetailsF"
+        android:label="fragment_specific_chapter_details"
+        tools:layout="@layout/fragment_specific_chapter_details" />
+</navigation>

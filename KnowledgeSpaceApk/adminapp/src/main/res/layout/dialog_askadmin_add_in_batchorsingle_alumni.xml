@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayEditAlumniDetailsFAdm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="#F4F4F4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Add In-Batch Or Singular ?"
+                android:textSize="34sp" />
+
+            <View
+                android:id="@+id/divider35"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/batchTvAskAdminAddInBatchOrSingleAlumniDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:minHeight="50dp"
+                    android:text="Batch"
+                    android:textAlignment="center"
+                    android:textColor="#1256C5"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/singleTvAskAdminAddInBatchOrSingleAlumniDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:minHeight="50dp"
+                    android:text="Single"
+                    android:textColor="#0F8D6F"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cancelBtnImgVCusDiaAskAdminAlumniAddFAdm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnBookK"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_cancel_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

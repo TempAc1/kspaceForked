@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentFrameLayCourseSelectedOptFAdm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupFragAdm.CourseSelectedFAdm">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerVCourseSelectedOptAdm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingBtnCourseSelectedOptAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_baseline_add_circle_24" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addCourseFloatingBtnCourseSelectedFAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/floatingBtnCourseSelectedOptAdm"
+            android:layout_alignStart="@+id/floatingBtnCourseSelectedOptAdm"
+            android:layout_alignEnd="@+id/floatingBtnCourseSelectedOptAdm"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="28dp"
+            android:clickable="true"
+            android:minHeight="48dp"
+            android:src="@drawable/chat"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/addCourseTvCourseSelectedFAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/addCourseFloatingBtnCourseSelectedFAdm"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="11dp"
+            android:layout_toStartOf="@+id/addCourseFloatingBtnCourseSelectedFAdm"
+            android:text="ADD COURSE"
+            android:visibility="gone" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addModuleFloatingBtnCourseSelectedFAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/addCourseFloatingBtnCourseSelectedFAdm"
+            android:layout_alignStart="@+id/addCourseFloatingBtnCourseSelectedFAdm"
+            android:layout_alignEnd="@+id/addCourseFloatingBtnCourseSelectedFAdm"
+            android:layout_marginStart="-1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="33dp"
+            android:clickable="true"
+            android:minHeight="48dp"
+            android:src="@drawable/contract"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/addModuleTvCourseSelectedFAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/addModuleFloatingBtnCourseSelectedFAdm"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="17dp"
+            android:layout_toStartOf="@+id/addModuleFloatingBtnCourseSelectedFAdm"
+            android:text="ADD MODULE"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</FrameLayout>

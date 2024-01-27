@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgVSingleResHallOfFrame"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        android:maxHeight="500dp" />
+
+    <!--Text view to display stats coordinate with image-->
+    <View
+        android:id="@+id/divider37"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/imgNameTvSingleResDesHallOfFrame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:maxHeight="50dp"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+</LinearLayout>

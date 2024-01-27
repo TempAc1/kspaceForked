@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayHallOfFrameMainSc"
+    android:padding="10dp"
+    tools:context=".Alumni.HallOfFrame.HallOfFrameMainFrag">
+
+    <ScrollView
+        android:id="@+id/scrollViewHoFMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tVActivityMainHallOfFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="10dp"
+                android:text="Hall Of Frame"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <AdapterViewFlipper
+                android:id="@+id/adapterViewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp" />
+
+            <View
+                android:id="@+id/divider36"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#070202" />
+
+            <Button
+                android:id="@+id/viewAllAlumniTvHallOfFrameMainAct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+                android:gravity="center"
+                android:minHeight="50dp"
+                android:padding="10dp"
+                android:text="Previous Hall Of Frame"
+                android:textColor="#FFFAFA"
+                app:autoSizeTextType="uniform" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingBtnAddHoF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:clickable="true"
+                    android:paddingBottom="20dp"
+                    android:src="@android:drawable/ic_menu_add" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <!--AdapterViewFlipper to display the functionality-->
+
+</FrameLayout>

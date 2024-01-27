@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CV.CvPerIntroPart2ScF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Languages"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/perLang1EditTvCvPerIntroSc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:minHeight="53dp"
+            android:hint="1st Language"
+            android:drawableStart="@android:drawable/btn_star_big_on"
+            android:inputType="text"
+            android:isScrollContainer="true"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/perLang2EditTvCvPerIntroSc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:minHeight="53dp"
+            android:hint="2nd Language"
+            android:drawableStart="@android:drawable/btn_star_big_on"
+            android:inputType="text"
+            android:isScrollContainer="true"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/perLang3EditTvCvPerIntroSc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:minHeight="53dp"
+            android:hint="3rd Language"
+            android:drawableStart="@android:drawable/btn_star_big_on"
+            android:inputType="text"
+            android:isScrollContainer="true"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/perLang4EditTvCvPerIntroSc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:minHeight="53dp"
+            android:hint="4th Language"
+            android:drawableStart="@android:drawable/btn_star_big_on"
+            android:inputType="text"
+            android:isScrollContainer="true"
+            android:textSize="25sp" />
+
+
+
+        <View
+            android:id="@+id/divider49"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Skills"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/per1SkillsEditTvCvPerIntroSc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:ems="10"
+                android:hint="First skill"
+                android:inputType="text"
+                android:maxLines="1"
+                android:minHeight="53dp"
+                android:nextFocusDown="@+id/per2SkillsEditTvCvPerIntroSc"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/per2SkillsEditTvCvPerIntroSc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:nextFocusDown="@+id/per3SkillsEditTvCvPerIntroSc"
+                android:hint="Second skill"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:inputType="text"
+                android:maxLines="1"
+                android:minHeight="53dp"
+                android:textSize="25sp" />
+
+
+            <EditText
+                android:id="@+id/per3SkillsEditTvCvPerIntroSc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:nextFocusDown="@+id/per4SkillsEditTvCvPerIntroSc"
+                android:hint="Third skill"
+                android:inputType="text"
+                android:maxLines="1"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:minHeight="53dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/per4SkillsEditTvCvPerIntroSc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:nextFocusDown="@+id/per5SkillsEditTvCvPerIntroSc"
+                android:hint="Fourth skill"
+                android:inputType="text"
+                android:maxLines="1"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:minHeight="53dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/per5SkillsEditTvCvPerIntroSc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Fifth skill"
+                android:inputType="text"
+                android:maxLines="1"
+                android:drawableStart="@android:drawable/btn_star_big_on"
+                android:minHeight="53dp"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/divider50"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="?android:attr/listDivider" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/NxtBtnCvPerIntroPart2Sc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:minHeight="53dp"
+                android:padding="5dp"
+                android:text="Next"
+                android:textSize="20sp"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

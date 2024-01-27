@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KnowledgeSpaceApk">
+        <activity
+            android:name=".AlumniActAdm.AlumniActMainScAdm"
+            android:exported="false" />
+        <activity
+            android:name=".NotiFragAdm.NotiActMainScAdm"
+            android:exported="false" />
+        <activity
+            android:name=".ApplicationActAdm.ApplicationActAdm"
+            android:exported="false" />
+        <activity
+            android:name=".PlacementActAdm.PlacementMainActAdm"
+            android:exported="false" />
+        <activity
+            android:name=".FeesActAdm.FeesActMainScAdm"
+            android:exported="false" />
+        <activity
+            android:name=".RewardsActAdm.RewardsActAdm"
+            android:exported="false" />
+        <activity
+            android:name=".GroupFragAdm.FragmentHolderActGrpAdm"
+            android:exported="false" />
+        <activity
+            android:name=".UsersCommentScAdm.UsersCommentScAdm"
+            android:exported="false" />
+        <activity
+            android:name=".MyPosts.MyPostActAdm"
+            android:exported="false" />
+        <activity
+            android:name=".HomeworkActAdm.HomeworkActAdm"
+            android:exported="false" />
+        <activity
+            android:name=".ScholarshipAct.ScholarshipActAdm"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScAdm"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsAct.settingFrManagerAct"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsAct.settingAct"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceAct.AttendanceAct"
+            android:exported="false" />
+        <activity
+            android:name=".RoutineAct"
+            android:exported="false" />
+        <activity
+            android:name=".contactAct.ContactAct"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

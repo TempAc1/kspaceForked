@@ -1,0 +1,185 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/srika/AndroidStudioProjects/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/halloffameadm.xml" value="0.19895833333333332" />
+        <entry key="..\:/Users/srika/AndroidStudioProjects/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.1395" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_edit_24.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_logout_24.xml" value="0.1395" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_phone_24.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_remove_red_eye_24.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable-v24/ic_baseline_summarize_24.xml" value="0.1395" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/drawable/searchv_contact.xml" value="0.1395" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_alumni_act_main_sc_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_application_act_adm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_attendance.xml" value="0.24069478908188585" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_contact.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_contact_act_frame.xml" value="0.19655797101449277" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_contact_act_new.xml" value="0.19655797101449277" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_fees_act_main_sc_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_fees_act_main_sc_adm2.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_fragment_holder_act_grp_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_home_sc_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_homework_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_login_sc_adm.xml" value="0.20244565217391305" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_main_hall_of_frame.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_my_post_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_placement_main_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_rewards_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_routine.xml" value="0.21195652173913043" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_scholarship.xml" value="0.18206521739130435" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_scholarship_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_setting.xml" value="0.21822916666666667" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_setting_fr_manager.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/activity_users_comment_sc_adm.xml" value="0.18297101449275363" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/app_bar_adm.xml" value="0.16485507246376813" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/confirm_savingdata_popupdialog.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/course_name_dropdown_item_addmodulef_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/create_event_dialog_homef_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/cus_dia_add_placement_offer_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/cus_dia_add_resources_fadm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dia_add_discussion_mainsc_dispanel_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dialog_addcourse_courseselected_f_adm.xml" value="0.13451086956521738" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dialog_addmodule_courseselected_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dialog_addquiz.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dialog_contact_add.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dialog_courseselected_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dialog_createpost_homef.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/custom_dialog_homef_createpost.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/delete_update_alumni_dialog_prevyr_hof.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/dialog_add_alumni_dir_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/dialog_add_opportunity_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/dialog_askadmin_add_in_batchorsingle_alumni.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/dialog_update_alumni_details_prevyr_hof.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/dialog_update_alumnidetails_prevyr_hof.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/drawer_nav_header_adm.xml" value="0.16485507246376813" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/dropdown_menuitems_defaultfees_f_adm.xml" value="0.176" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/edit_alumni_details_popup_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_academic_fees_f_adm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_add_fab_btn.xml" value="0.19655797101449277" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_add_quiz_ques_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_alumni_directory_main_sc_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_alumni_frag_home_sc.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_alumni_opportunity_frag_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_alumni_search_result_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_application_act_main_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_application_details_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_contact.xml" value="0.19655797101449277" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_contact_frag_new.xml" value="0.21822916666666667" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_course_selected_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_create_homework_frag_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_custom__add__application_opt_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_default_frag_fees_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_discussion_panel_main_sc_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_fees_history_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_fees_result_frag_fees_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_group_frag_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_group_overview_frag_grp_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_hall_of_frame_frag_adm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_hall_of_frame_main.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_home.xml" value="0.16485507246376813" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_home_frag_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_homework_default_frag_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_login_sc.xml" value="0.20244565217391305" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_login_sc_adm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_noti_frag_adm.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_placement_act_main_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_placement_default_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_placement_offer_details_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_placement_resources_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_previous_yr_ho_f_main_sc.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_profile_f_setting_act.xml" value="0.16" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_quizes_main_sc_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_selected_option_frag_grp_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_sign_out_f_setting_act.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_single_opportunity_f_adm.xml" value="0.15958904109589042" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_single_post_frag_my_post_act_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_specific_chapter_details_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_tn_c_f_setting_act.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_update_alumni_details_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/fragment_update_alumni_details_through_delete_update_alumni_dialog_prev_yr_ho.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/hall_of_fame_custom_adapter_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/halloffameadm.xml" value="0.17074275362318841" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/popup_ask_removealumni_frm_hof.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/popup_askadm_addhof_noofalumnis_n_yr.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/popup_dialog_delete.xml" value="0.4" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/popupdialog_add_hof.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_rec_des_course_selectedf_adm.xml" value="0.18432971014492755" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resd_recv_application_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resd_recv_feeshist_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resd_recv_placementdefault_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resdes_recv_alumnisearch_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resdes_recv_fees_resultf_feesact_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resdes_recv_placement_resources_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resdes_recv_prevyr_hof_mainsc_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_resource_layout_hallofframe.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_attendance_act.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_course_selectedf_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_homeworkdefault_fragadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_mypost_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_recv_dispanel_mainsc_fadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_recv_quizes_mainsc_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_recyclerv_specific_chap_detailsf_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_des_scholarshipadm_act.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_design_contact_act.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_design_rec_notif_adm.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_design_recv_groupf_adm.xml" value="0.12431693989071038" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_row_design_recv_homef_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_rowd_recv_alumniopportunity_f_adm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/single_rowdes_recv_alumnifrag_mainsc.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/layout/users_comment_scadm.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/menu/bottom_nav_menu_adm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/menu/custom_toolbar_menu_adm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/adminapp/src/main/res/menu/drawer_menu_adm.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/drawable/searchv_contact.xml" value="0.1395" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_attendance.xml" value="0.21195652173913043" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_contact.xml" value="0.2" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_home_sc.xml" value="0.1913214990138067" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_routine.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_setting_fr_manger.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/app_bar.xml" value="0.16485507246376813" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/drawer_nav_header.xml" value="0.16485507246376813" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/fragment_group.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/fragment_login_n_signup_main.xml" value="0.14221014492753623" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/fragment_profile_f_setting_act.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/fragment_sign_out_f_setting_act.xml" value="0.24270833333333333" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/fragment_t_nc_f_setting_act.xml" value="0.25" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/single_row_des_recv_alumnifrag_homesc.xml" value="0.264" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/single_row_design_rec_attendance.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/single_row_design_rec_contact.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/single_row_design_rec_fees_historyact.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/single_row_design_rec_groupf.xml" value="0.16485507246376813" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/single_row_design_rec_homef.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/layout/single_row_design_rec_notif.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16296296296296298" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/menu/custom_toolbar_menu.xml" value="0.1" />
+        <entry key="..\:/ksApp/KnowledgeSpaceApk/app/src/main/res/menu/drawer_menu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+<<<<<<< Updated upstream
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+>>>>>>> Stashed changes
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

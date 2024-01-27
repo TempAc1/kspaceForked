@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsAct.profileFSettingAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/emailIdTvProfileFSettingActAdminApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:text="student@email.com"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/phNoTvProfileFSettingActAdminApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:text="8564635780"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/passTvProfileFSettingActAdminApp"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawableEnd="@drawable/ic_baseline_edit_24"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="password"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/showPassImgProfileFSettingActAdminApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_remove_red_eye_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/confPassTvProfileFSettingActAdminApp"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:autoSizeTextType="uniform"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawableEnd="@drawable/ic_baseline_edit_24"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingStart="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="password"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/showConfPassImgProfileFSettingActAdminApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_baseline_remove_red_eye_24" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveMaterialBtnProfileFSettingActAdminApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="50dp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/searchv_contact"
+            android:elevation="5dp"
+            android:text="Save" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

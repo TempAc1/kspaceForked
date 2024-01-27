@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alumni_nav_graph"
+    app:startDestination="@id/alumniFragHomeSc">
+
+    <fragment
+        android:id="@+id/alumniFragHomeSc"
+        android:name="com.example.knowledgespaceapk.Alumni.AlumniFragHomeSc"
+        android:label="fragment_alumni_frag_home_sc"
+        tools:layout="@layout/fragment_alumni_frag_home_sc" >
+        <action
+            android:id="@+id/action_alumniFragHomeSc_to_hallOfFrameMainFrag"
+            app:destination="@id/hallOfFrameMainFrag" />
+        <action
+            android:id="@+id/action_alumniFragHomeSc_to_alumniDirectoryMainScF"
+            app:destination="@id/alumniDirectoryMainScF" />
+        <action
+            android:id="@+id/action_alumniFragHomeSc_to_alumniOpportunityFrag"
+            app:destination="@id/alumniOpportunityFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/hallOfFrameMainFrag"
+        android:name="com.example.knowledgespaceapk.Alumni.HallOfFrame.HallOfFrameMainFrag"
+        android:label="fragment_hall_of_frame_main"
+        tools:layout="@layout/fragment_hall_of_frame_main" >
+        <action
+            android:id="@+id/action_hallOfFrameMainFrag_to_previousYrHoFMainScFrag"
+            app:destination="@id/previousYrHoFMainScFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/alumniDirectoryMainScF"
+        android:name="com.example.knowledgespaceapk.Alumni.Directory.AlumniDirectoryMainScF"
+        android:label="fragment_alumni_directory_main_sc"
+        tools:layout="@layout/fragment_alumni_directory_main_sc" >
+        <action
+            android:id="@+id/action_alumniDirectoryMainScF_to_alumniSearchResultF"
+            app:destination="@id/alumniSearchResultF" />
+    </fragment>
+    <fragment
+        android:id="@+id/alumniOpportunityFrag"
+        android:name="com.example.knowledgespaceapk.Alumni.Opportunity.AlumniOpportunityFrag"
+        android:label="fragment_alumni_opportunity"
+        tools:layout="@layout/fragment_alumni_opportunity" >
+        <action
+            android:id="@+id/action_alumniOpportunityFrag_to_singleOpportunityF"
+            app:destination="@id/singleOpportunityF" />
+    </fragment>
+    <fragment
+        android:id="@+id/previousYrHoFMainScFrag"
+        android:name="com.example.knowledgespaceapk.Alumni.HallOfFrame.PreviousYrHoF.PreviousYrHoFMainScFrag"
+        android:label="fragment_previous_yr_ho_f_main_sc"
+        tools:layout="@layout/fragment_previous_yr_ho_f_main_sc" />
+    <fragment
+        android:id="@+id/singleOpportunityF"
+        android:name="com.example.knowledgespaceapk.Alumni.Opportunity.SingleOpportunity.SingleOpportunityF"
+        android:label="fragment_single_opportunity"
+        tools:layout="@layout/fragment_single_opportunity" />
+    <fragment
+        android:id="@+id/alumniSearchResultF"
+        android:name="com.example.knowledgespaceapk.Alumni.Directory.AlumniSearchResultF"
+        android:label="fragment_alumni_search_result"
+        tools:layout="@layout/fragment_alumni_search_result" />
+</navigation>

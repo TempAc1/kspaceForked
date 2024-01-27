@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/placement_navgraph.xml"
+    app:startDestination="@id/placementMainScF">
+
+    <fragment
+        android:id="@+id/placementMainScF"
+        android:name="com.example.knowledgespaceapk.PlacementAct.PlacementMainScF"
+        android:label="fragment_placement_main_sc"
+        tools:layout="@layout/fragment_placement_main_sc" >
+        <action
+            android:id="@+id/action_placementMainScF_to_placementOfferDetailsF"
+            app:destination="@id/placementOfferDetailsF" />
+    </fragment>
+    <fragment
+        android:id="@+id/placementOfferDetailsF"
+        android:name="com.example.knowledgespaceapk.PlacementAct.PlacementOfferDetailsF"
+        android:label="fragment_placement_offer_details"
+        tools:layout="@layout/fragment_placement_offer_details" />
+</navigation>

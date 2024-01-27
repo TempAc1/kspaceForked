@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CV.CV3rdScF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeVCv3rdScF"
+        android:visibility="gone">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webVCv3rdScF"/>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollVCv3rdScF"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Certificates"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First Certificate Details"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/per1CertAuthorityEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Authority"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@id/per1stCertNameEditTvCv3rdSc"
+                        android:textSize="25sp" />
+
+                    <EditText
+                        android:id="@+id/per1stCertNameEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per2ndCertAuthorityEditTvCv3rdSc"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider511"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2nd Certificate Details"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/per2ndCertAuthorityEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Authority"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per2ndCertNameEditTvCv3rdSc"
+                        android:textSize="25sp" />
+
+                    <EditText
+                        android:id="@+id/per2ndCertNameEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per3rdCertAuthorityEditTvCv3rdSc"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider512"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3rd Certificate Details"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/per3rdCertAuthorityEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Authority"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per3rdCertNameEditTvCv3rdSc"
+                        android:textSize="25sp" />
+
+                    <EditText
+                        android:id="@+id/per3rdCertNameEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per4CertAuthorityEditTvCv3rdSc"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider513"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4th Certificate Details"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/per4CertAuthorityEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Authority"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per4stCertNameEditTvCv3rdSc"
+                        android:textSize="25sp" />
+
+                    <EditText
+                        android:id="@+id/per4stCertNameEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per5thCertAuthorityEditTvCv3rdSc"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider514"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="?android:attr/listDivider"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5th Certificate Details"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/per5thCertAuthorityEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Authority"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:nextFocusDown="@+id/per5thCertNameEditTvCv3rdSc"
+                        android:textSize="25sp" />
+
+                    <EditText
+                        android:id="@+id/per5thCertNameEditTvCv3rdSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:drawableStart="@android:drawable/btn_star_big_on"
+                        android:ems="10"
+                        android:hint="Certificate Name"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="53dp"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider515"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="?android:attr/listDivider"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <Button
+                android:id="@+id/generateCVButtonCv3rdScF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="53dp"
+                android:text="Generate now" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

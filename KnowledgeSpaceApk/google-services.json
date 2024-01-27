@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34616400935",
+    "project_id": "kspaceforked",
+    "storage_bucket": "kspaceforked.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34616400935:android:8f31a27962b2af79d28202",
+        "android_client_info": {
+          "package_name": "com.example.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34616400935-c6rtdu7sp83gek7olvovu08bvo66rdpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLYBNaoiOQ0tapF3RvxfbBKL_uWNFmO7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34616400935-c6rtdu7sp83gek7olvovu08bvo66rdpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

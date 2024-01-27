@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayCreateHomeworkFragAdm">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/selectDateTVCreateHomeworkFragAdm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectDateTVCreateHomeworkFragAdm">
+
+            <TextView
+                android:id="@+id/startDateTVCreateHomeworkFragAdm"
+                style="@android:style/Widget.DeviceDefault.Light.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="50dp" />
+
+            <TextView
+                android:id="@+id/endDateTVCreateHomeworkFragAdm"
+                style="@android:style/Widget.DeviceDefault.Light.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="50dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/selectTimeTvCreateHomeworkFragAdm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selectTimeTvCreateHomeworkFragAdm">
+
+            <TextView
+                android:id="@+id/startTimeTVCreateHomeworkFragAdm"
+                style="@android:style/Widget.DeviceDefault.Light.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="50dp" />
+
+            <TextView
+                android:id="@+id/endTimeTVCreateHomeworkFragAdm"
+                style="@android:style/Widget.DeviceDefault.Light.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:minHeight="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <EditText
+                android:id="@+id/homeworkTitleTvCreateHomeworkFragAdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Homework Title"
+                android:inputType="textMultiLine"
+                android:isScrollContainer="true"
+                android:minHeight="50dp"
+                android:scrollbars="vertical" />
+
+            <EditText
+                android:id="@+id/homeworkDescTvCreateHomeworkFragAdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Homework Description"
+                android:inputType="textMultiLine"
+                android:isScrollContainer="true"
+                android:minHeight="50dp"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/attachmentTvCreateHomeworkFragAdm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:height="50dp"
+            android:drawableEnd="@drawable/ic_baseline_attach_file_24"
+            android:minLines="2"
+            android:text="Attach a file"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+        <Button
+            android:id="@+id/postHomeWoreBtnCreateHomeworkFragAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="Post Now"
+            app:circularflow_angles="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/attachmentTvCreateHomeworkFragAdm" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+

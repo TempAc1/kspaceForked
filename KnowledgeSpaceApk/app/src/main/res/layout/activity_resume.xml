@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resume">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/studentNameTvResumeAct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:gravity="start"
+                android:hint="Student Name" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/downloadBtnImgVResumeAct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="6"
+                app:srcCompat="@drawable/ic_baseline_file_download_24" />
+        </LinearLayout>
+        <com.github.mikephil.charting.charts.RadarChart
+            android:id="@+id/radarChartResumeAct"
+            android:layout_width="match_parent"
+            android:layout_height="323dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/detailsLinearLayoutResumeAct"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv1artributeDetailsLinLayResumeAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingRight="3dp"
+                    android:text="TextView"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv1artibutevalueLinLayDetailsLLResumeAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv2artributeValueLinLayResumeAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingRight="3dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/tv2artributeDetailsLinLayResumeAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv3artributeValueLinLayResumeAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingRight="3dp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/tv3artributeDetailsLinLayResumeAct"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeTextType="uniform"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:text="TextView" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvMoreDetailsResumeAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:drawableRight="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            android:gravity="center"
+            android:text="Details"
+            android:textColor="#090808" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

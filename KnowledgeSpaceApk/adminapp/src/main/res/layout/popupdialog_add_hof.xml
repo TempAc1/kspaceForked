@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollVPopupDialogAddHofAdm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayConfirmSavingDataPopupDialogAddHof"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                app:srcCompat="@drawable/approved" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Add Alumnis To Hall Of frame"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider28"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/NoTvPopupConfirmSavingData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:minHeight="50dp"
+                    android:padding="10dp"
+                    android:text="No"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/yesBtnTvPopupSavingDataPopupDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:minHeight="50dp"
+                    android:padding="10dp"
+                    android:text="Yes"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:autoSizeTextType="uniform" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/finalAddAlumniBtnPopupDialogAddHof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="663dp"
+            android:layout_marginEnd="150dp"
+            android:minHeight="55dp"
+            android:padding="5dp"
+            android:text="Add now"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayContainerImgNNameVPopUpDialogAddHof"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:background="#F4F4F4"
+            android:paddingTop="15dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/addAlumniImgVPopupDialogAddHof"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Click to Add Hall Of Frame"
+                    android:cropToPadding="true"
+                    android:maxHeight="400dp"
+                    android:minHeight="200dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                <View
+                    android:id="@+id/divider38"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:text="Enter Name"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editTvAlumniNamePopupDialogAddHofAdm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:drawableEnd="@drawable/contacts"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:minHeight="50dp" />
+
+                <Button
+                    android:id="@+id/addNxtAlumniBtnPopupDialogAddHoFAdm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:minHeight="50dp"
+                    android:text="Add Next"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvShowAlumniCountPopupDialogAddHofAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:minHeight="50dp"
+            android:padding="5dp"
+            android:textSize="22dp"
+            app:autoSizeTextType="uniform" />
+
+        <LinearLayout
+            android:id="@+id/llTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/cancelBtnPopupDialogFinalAddHof"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btnBookK"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_cancel_24" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

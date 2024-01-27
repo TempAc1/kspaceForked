@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    tools:context=".LoginScAdmFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="150dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="Login credentials" />
+
+        <EditText
+            android:id="@+id/emailTvLoginScAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:ems="10"
+            android:hint="Email Id"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingStart="4dp"
+            android:paddingRight="4dp" />
+
+        <EditText
+            android:id="@+id/passTvLoginScAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="50dp" />
+
+        <Button
+            android:id="@+id/loginBtnLogicScAdm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:text="Log in"
+            app:strokeColor="#64DD17" />
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/loadingSpinnerLoginScAdmFrag"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:SpinKit_Color="@color/teal_200" />
+
+        <TextView
+            android:id="@+id/contactHereTvLoginScAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Dont have an account? Contact here" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayAlumniFragHomeSc"
+    tools:context=".Alumni.AlumniFragHomeSc">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgVAlumniFragMainSc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/fest" />
+
+            <View
+                android:id="@+id/divider26"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <ScrollView
+                android:id="@+id/scrollVAlumniFragHomeSc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/HallOfFrameMaterialCardVAlumniFragMainSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="30dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/titleTvlAlumniMainScHoF"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Hall Of Frame"
+                                android:textSize="24sp" />
+
+                            <View
+                                android:id="@+id/divider6Hof"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="?android:attr/listDivider" />
+
+                            <TextView
+                                android:id="@+id/descTvlAlumniMainScHoF"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="An Alumni Hall of Fame is a recognition program that honors and celebrates the achievements of graduates from a particular educational institution. It serves as a way to acknowledge the success of alumni who have made a significant impact in their fields after graduation. Inductees into the Hall of Fame are selected based on their notable accomplishments, contributions to society, and influence on their respective fields."
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/OpportunitiesMaterialCardVAlumniFragMainSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <TextView
+                                android:id="@+id/titleTvlAlumniMainScOpport"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Alumni Opportunity"
+                                android:textSize="24sp" />
+
+                            <View
+                                android:id="@+id/divider6Opport"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="?android:attr/listDivider" />
+
+                            <TextView
+                                android:id="@+id/descTvlAlumniMainScOpport"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Various opportunities provided by alumni spread all across the globe.Alumni opportunities refer to benefits, services, and events that are offered to former students of a school, college, or university. These can include career services, continuing education, social events, and volunteer opportunities, aimed at helping alumni advance their careers, stay connected to their alma mater, and network with other alumni. The goal is to maintain and strengthen the bond between alumni and their institution, and provide resources for personal and professional growth."
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/AlumniDirectoryMaterialCardVAlumniFragMainSc"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="30dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/titleTvlAlumniMainScAlmDir"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Directory"
+                                android:textSize="24sp" />
+
+                            <View
+                                android:id="@+id/divider6"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="?android:attr/listDivider" />
+
+                            <TextView
+                                android:id="@+id/descTvlAlumniMainScAlmDir"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="An alumni directory is a database or directory that lists the names and contact information of alumni of a particular educational institution or organization. Alumni directories can be used for a variety of purposes, including reunions, networking, fundraising, and staying in touch with alumni.An alumni directory is a database or list of former students or graduates of a school, college, or university. It is often used as a way for alumni to stay connected with each other and the institution, and can include information such as names, contact information, career information, and biographical data. The purpose of an alumni directory is to maintain and strengthen connections between alumni and the institution, and to support networking and career opportunities for alumni."
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/recyclerVAlumniFragHomeSc"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:padding="10dp"-->
+            <!--                android:paddingTop="15dp" />-->
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

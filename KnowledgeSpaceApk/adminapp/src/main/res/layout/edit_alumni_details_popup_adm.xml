@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayEditAlumniDetailsFAdm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="#F4F4F4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgVEditAlumniDetailsFAdm"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+            <View
+                android:id="@+id/divider32"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="50dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTvNameEditAlumniDetailsFAdm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="50dp"
+                    android:text="Name" />
+
+                <ImageView
+                    android:id="@+id/imgVEditTvNameEditAlumniDetailsFAdm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/ic_baseline_edit_24" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTvBatchYrEditAlumniDetailsFAdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:minHeight="50dp"
+                android:text="Batch Year" />
+
+            <ImageView
+                android:id="@+id/imgVBatchYrEditAlumniDetailsFAdm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="50dp"
+                android:orientation="horizontal">
+
+                <EditText
+                android:id="@+id/editTvDeptNameEditAlumniDetailsFAdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="50dp"
+                android:text="Department" />
+
+                <ImageView
+                    android:id="@+id/imgVDeptEditAlumniDetailsFAdm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="50dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/editTvRegNoEditAlumniDetailsFAdm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="50dp"
+                android:text="Registration No" />
+
+
+            <ImageView
+                android:id="@+id/imgVRegNoEditAlumniDetailsFAdm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_baseline_edit_24" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/updateAlumniBtnEditAlumniDetailsFAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Update Details" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cancelBtnImgVEditAlumniDetailsFAdm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnBookK"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_cancel_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

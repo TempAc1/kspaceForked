@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayPayFeesFFeesAct"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context=".FeesAct.PayFeesFFeesAct">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Academic Year" />
+
+    <TextView
+        android:id="@+id/studentCurrentBatchDetailsTvPayFeesF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019 B.E" />
+
+    <View
+        android:id="@+id/divider14"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="?android:attr/listDivider" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/tr1TitlePayFeesF"
+            android:layout_width="match_parent"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tr1c1TitleTvPayFeesF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Fees Type"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tr1c2TitleTvPayFeesF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" Amount (in Rs.)"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Tr2PayFeesFFeesAct"
+            android:layout_width="match_parent"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tr2c1AcademicsTvPayFeesFFeesAct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Academics Fees"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tr2c2AcademicsFeesAmtTvPayFeesF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="85000"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Tr3PayFeesFFeesAct"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tr3c1StdInsurancesTvPayFeesF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Student Insurances"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tr3c2StdInsurancesFeesAmtTvPayFeesF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="5000"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Tr4PayFeesFFeesAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tr4c1LibraryFeesTvPayFeesF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Library Fees"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tr4c2LibraryFeesAmtTvPayFeesF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="1284"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Tr5PayFeesFFeesAct"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tr5c1DevelopmentFeesTvPayFeesF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Development Fees"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tr5c2DevelopmentFeesAmtTvPayFeesF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="6000"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Tr6PayFeesFFeesAct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tr6c1OtherFeesTvPayFeesF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Other Fees"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tr6c2OtherFeesAmtTvPayFeesF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="25000"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:id="@+id/divider16"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="?android:attr/listDivider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/payFeesBtnPayFeesFPayFeesAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:minHeight="50dp"
+            android:text="Pay Fees" />
+    </RelativeLayout>
+
+
+</LinearLayout>

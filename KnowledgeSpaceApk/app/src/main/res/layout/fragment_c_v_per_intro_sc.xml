@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:padding="5dp"
+    tools:context=".CV.CVPerIntroScF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Summary"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/perSummaryEditTvCvPerIntroSc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_stroke_allround"
+                android:ems="10"
+                android:gravity="start"
+                android:hint="Describe yourself here..."
+                android:inputType="textMultiLine|text"
+                android:isScrollContainer="true"
+                android:minHeight="200dp"
+                android:maxHeight="500dp"
+                android:padding="5dp"
+                android:paddingStart="10dp"
+                android:textSize="25sp" />
+
+            <View
+                android:id="@+id/divider38"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="15dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Experience"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/internshipJobTitleEditTvCvPerIntroScF"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Internship Title"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:minHeight="50dp"
+                        android:padding="10dp" />
+
+                    <EditText
+                        android:id="@+id/internshipJobPeriodEditTvCvPerIntroScF"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Period in months"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:minHeight="50dp"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/companyNameEditTvCvPerIntroScF"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Company Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:minHeight="50dp"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/expDescEditTvCvPerIntroScF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Short Job Description here..."
+                    android:minHeight="50dp"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider46"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="15dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Education"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currentBranchNameCvPerIntroScF"
+                    android:minHeight="50dp"
+                    android:hint="Current Branch Name"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currentInstituteNameCvPerIntroScF"
+                    android:minHeight="50dp"
+                    android:hint="Current Institute Name"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/higherSecondarySchoolNameCvPerIntroScF"
+                    android:minHeight="50dp"
+                    android:hint="Higher Secondary School Name"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/higherSecondarySchoolYearCvPerIntroScF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/arrow_down_float"
+                    android:gravity="center|start"
+                    android:hint="Year"
+                    android:maxLines="1"
+                    android:minHeight="50dp"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/secondarySchoolNameCvPerIntroScF"
+                    android:minHeight="50dp"
+                    android:hint="Secondary School Name"
+                    android:inputType="text"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/secondarySchoolYearCvPerIntroScF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@android:drawable/arrow_down_float"
+                    android:gravity="center|start"
+                    android:hint="Year"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:minHeight="50dp"
+                    android:padding="5dp"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider47"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <Button
+                android:id="@+id/NxtBtnCvPerIntroSc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:minHeight="53dp"
+                android:padding="5dp"
+                android:text="Next"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

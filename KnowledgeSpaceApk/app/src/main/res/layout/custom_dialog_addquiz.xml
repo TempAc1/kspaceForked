@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cusDiaAddQuizData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="#F4F4F4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/setDurationCusDiaQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="Total Duration"
+                android:minHeight="50dp"
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                app:autoSizeTextType="none" />
+
+            <EditText
+                android:id="@+id/setTotalQuesCusDiaQuiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Total Questions"
+                android:inputType="number"
+                android:minHeight="50dp" />
+
+            <Button
+                android:id="@+id/postBtnCusDiaAddQuiz"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="#F8F3F3"
+                android:backgroundTint="#EEEEA5"
+                android:gravity="center"
+                android:minHeight="50dp"
+                android:text="PROCEED" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cancelBtnCusDiaAddQuiz"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnBookK"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_cancel_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

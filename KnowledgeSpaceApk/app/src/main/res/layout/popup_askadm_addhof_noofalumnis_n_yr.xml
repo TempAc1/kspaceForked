@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topLinearLayPopupAskAdmAddHofNoofAlumnisnYr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Add Alumnis"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider28"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginBottom="30dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:padding="5dp"
+            android:text="Enter No of alumnis to add"
+            android:textSize="24sp" />
+
+        <View
+            android:id="@+id/divider39"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <EditText
+            android:id="@+id/totalNoOfAlumnisToEnterEditTvPopupAskAdmAddHofNoOfAlumnisNYr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="Enter Total Alumnis To Add"
+            android:inputType="number"
+            android:minHeight="50dp"
+            android:padding="5dp"
+            android:textSize="20sp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Enter Year"
+            android:textSize="28dp" />
+
+        <View
+            android:id="@+id/dividerNew"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/selectYearTvPopupAskAdmAddHofNoOfAlumnisNYr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:minHeight="50dp"
+            android:text="Enter Year"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider40"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_alignBottom="@id/topLinearLayPopupAskAdmAddHofNoofAlumnisnYr"
+        android:layout_marginTop="50dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/proceedNxtBtnPopupAskAdmAddHofNoOfAlumnisNYrAdm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topLinearLayPopupAskAdmAddHofNoofAlumnisnYr"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="136dp"
+        android:minHeight="55dp"
+        android:padding="10dp"
+        android:text="Proceed Now" />
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cancelBtnPopupDialogFinalAddHof"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnBookK"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_cancel_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

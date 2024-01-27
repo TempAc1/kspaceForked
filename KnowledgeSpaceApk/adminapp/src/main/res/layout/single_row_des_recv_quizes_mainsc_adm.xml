@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quizeTitleSingleRdsQuizesMainScAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Quize Title" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginBottom="2dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/totalNoQuestionsSingleRdsQuizesMainScAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:hint="Quize Total Questions" />
+
+        <TextView
+            android:id="@+id/quizeDurationSingleRdsQuizesMainScAdm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quize Duration" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

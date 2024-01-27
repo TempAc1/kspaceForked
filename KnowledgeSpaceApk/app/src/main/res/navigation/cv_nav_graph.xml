@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_nav_graph"
+    app:startDestination="@id/CVMainScF">
+
+    <fragment
+        android:id="@+id/CVMainScF"
+        android:name="com.example.knowledgespaceapk.CV.CVMainScF"
+        android:label="fragment_c_v_main_sc"
+        tools:layout="@layout/fragment_c_v_main_sc" >
+        <action
+            android:id="@+id/action_CVMainScF_to_CVPerIntroScF"
+            app:destination="@id/CVPerIntroScF" />
+    </fragment>
+    <fragment
+        android:id="@+id/CVPerIntroScF"
+        android:name="com.example.knowledgespaceapk.CV.CVPerIntroScF"
+        android:label="fragment_c_v_per_intro_sc"
+        tools:layout="@layout/fragment_c_v_per_intro_sc" >
+        <action
+            android:id="@+id/action_CVPerIntroScF_to_cvPerIntroPart2ScF"
+            app:destination="@id/cvPerIntroPart2ScF" />
+    </fragment>
+    <fragment
+        android:id="@+id/CV3rdScF"
+        android:name="com.example.knowledgespaceapk.CV.CV3rdScF"
+        android:label="fragment_c_v3rd_sc"
+        tools:layout="@layout/fragment_c_v3rd_sc" >
+        <argument
+            android:name="userData"
+            app:nullable="true"
+            app:argType="com.example.knowledgespaceapk.CV.CVPersonalDetails"/>
+    </fragment>
+    <fragment
+        android:id="@+id/cvPerIntroPart2ScF"
+        android:name="com.example.knowledgespaceapk.CV.CvPerIntroPart2ScF"
+        android:label="fragment_cv_per_intro_part2_sc"
+        tools:layout="@layout/fragment_cv_per_intro_part2_sc" >
+        <action
+            android:id="@+id/action_cvPerIntroPart2ScF_to_CV3rdScF"
+            app:destination="@id/CV3rdScF" />
+    </fragment>
+</navigation>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="#F4F4F4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/moduleTitleTvCusDiaAddModule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Module Title"
+                android:inputType="textPersonName"
+                android:minHeight="50dp" />
+
+            <EditText
+                android:id="@+id/moduleDesTvCusDiaAddModule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Module Description"
+                android:inputType="textPersonName"
+                android:minHeight="50dp" />
+
+            <TextView
+                android:id="@+id/moduleAttachmentTvCusDiaAddModule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:drawableEnd="@drawable/ic_baseline_attach_file_24"
+                android:minHeight="50dp"
+                android:paddingTop="5dp"
+                android:hint="Select Resources"
+                app:autoSizeMaxTextSize="20dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/dropDownSpinnerSelectCourseCusDiaAddModule"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTvDropDownSpinnerAddModuleDia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:text="Select Course" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/addModuleBtnCusDiaAddModule"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="#F8F3F3"
+                android:backgroundTint="#EEEEA5"
+                android:gravity="center"
+                android:minHeight="50dp"
+                android:text="ADD MODULE" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cancelBtnCusDiaAddDiscussion"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btnBookK"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_baseline_cancel_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

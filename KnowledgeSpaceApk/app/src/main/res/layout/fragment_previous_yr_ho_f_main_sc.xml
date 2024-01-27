@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayPrevYrHoFMainSc"
+    tools:context=".Alumni.HallOfFrame.PreviousYrHoF.PreviousYrHoFMainScFrag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Search For Alumni"
+                android:textSize="34sp" />
+
+            <View
+                android:id="@+id/divider42"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="50dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Year "
+                android:textSize="24sp" />
+
+            <Spinner
+                android:id="@+id/spinnerSelectYearPrevYrHoFMainScF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Year 20XX"
+                android:minHeight="55dp"
+                android:spinnerMode="dropdown"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                app:drawableEndCompat="@android:drawable/arrow_down_float" />
+
+            <Button
+                android:id="@+id/searchBtnPrevYrHoFMainScFrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider41"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="20dp"
+            android:background="?android:attr/listDivider" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerVPrevYrHoFMainSc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

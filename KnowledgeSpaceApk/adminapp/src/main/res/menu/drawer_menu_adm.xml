@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_home_24">
+        <menu>
+            <item android:id="@+id/cv"
+                android:title="Resume / C.V"
+                android:icon="@drawable/recruitment"/>
+            <item
+                android:id="@+id/alumni"
+                android:title="Alumni"
+                android:icon="@drawable/ic_baseline_person_24"/>
+        </menu>
+    </item>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/academics"
+            android:title="Academics">
+
+            <menu>
+                <item android:id="@+id/hw"
+                    android:title="HomeWork"
+                    android:icon="@drawable/homework">
+                </item>
+                <item android:id="@+id/application"
+                    android:title="Application"
+                    android:icon="@drawable/chat">
+                </item>
+                <item android:id="@+id/fees"
+                    android:title="Fees"
+                    android:icon="@drawable/fees">
+                </item>
+                <item android:id="@+id/scholarship"
+                    android:title="Scholarship"
+                    android:icon="@drawable/scholarship_24">
+                </item>
+                <item android:id="@+id/attendance"
+                    android:title="Attendance"
+                    android:icon="@drawable/attendance">
+                </item>
+                <item android:id="@+id/routine"
+                    android:title="Routine"
+                    android:icon="@drawable/routine_64">
+                </item>
+                <item android:id="@+id/placement"
+                    android:title="Placement"
+                    android:icon="@drawable/recruitment">
+                </item>
+                <item android:id="@+id/contactList"
+                    android:title="Contact List"
+                    android:icon="@drawable/contacts">
+                </item>
+            </menu>
+
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/exams"
+            android:title="Exams"
+            android:icon="@drawable/ic_baseline_summarize_24">
+            <menu>
+                <item
+                    android:id="@+id/examEnrollment"
+                    android:title="Exam Enrollment"
+                    android:icon="@drawable/ic_baseline_summarize_24"/>
+                <item
+                    android:id="@+id/onlineExams"
+                    android:title="Online Exams"
+                    android:icon="@drawable/contract"/>
+            </menu>
+
+        </item>
+    </group>
+    <item android:id="@+id/posts"
+        android:title="Posts"
+        android:icon="@drawable/chat"/>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24">
+    </item>
+
+    <!--    <item-->
+    <!--        android:id="@+id/tNc"-->
+    <!--        android:title="Terms And Conditions"-->
+    <!--        android:icon="@drawable/ic_baseline_assignment_late_24">-->
+    <!--    </item>-->
+
+    <!--    <item-->
+    <!--        android:id="@+id/signOut"-->
+    <!--        android:title="Sign Out"-->
+    <!--        android:icon="@drawable/ic_baseline_logout_24">-->
+    <!--    </item>-->
+
+</menu>

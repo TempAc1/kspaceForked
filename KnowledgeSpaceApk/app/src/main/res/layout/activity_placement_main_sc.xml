@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayPlacementMainAct"
+    tools:context=".PlacementAct.PlacementMainScAct">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentContainerPlacementMainAct"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost = "true"
+        app:navGraph="@navigation/placement_navgraph"/>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <com.google.android.material.tabs.TabLayout-->
+<!--            android:id="@+id/tabLayPlacementMainF"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?attr/actionBarSize" />-->
+
+<!--        <androidx.viewpager.widget.ViewPager-->
+<!--            android:id="@+id/viewPagerPlacementMainF"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+<!--    </LinearLayout>-->
+
+
+</FrameLayout>

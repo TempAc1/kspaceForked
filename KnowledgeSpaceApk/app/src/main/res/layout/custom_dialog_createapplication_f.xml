@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="20dp"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/success_tick" />
+
+    <TextView
+        android:id="@+id/sendAppStatusCusDiaCreateAppF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="175dp"
+        android:text="Success"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sendAppStatus2TvCusDiaCreateAppF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendAppStatusCusDiaCreateAppF"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="119dp"
+        android:text="Application sent successfully"
+        android:textSize="14dp" />
+
+    <View
+        android:id="@+id/divider26"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/sendAppStatus2TvCusDiaCreateAppF"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/okayBtnCusDiaCreateAppF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider26"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="160dp"
+        android:text="Okay" />
+
+</RelativeLayout>

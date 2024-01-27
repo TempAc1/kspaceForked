@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_settings"
+    app:startDestination="@id/settingMainScF">
+    <fragment
+        android:id="@+id/profileFSettingAct"
+        android:name="com.example.knowledgespaceapk.Settings.profileFSettingAct"
+        android:label="fragment_profile_f_setting_act"
+        tools:layout="@layout/fragment_profile_f_setting_act" />
+    <fragment
+        android:id="@+id/TNcFSettingAct"
+        android:name="com.example.knowledgespaceapk.Settings.TNcFSettingAct"
+        android:label="fragment_t_nc_f_setting_act"
+        tools:layout="@layout/fragment_t_nc_f_setting_act" />
+    <fragment
+        android:id="@+id/settingMainScF"
+        android:name="com.example.knowledgespaceapk.Settings.settingMainScF"
+        android:label="fragment_setting_main_sc"
+        tools:layout="@layout/fragment_setting_main_sc" >
+        <action
+            android:id="@+id/action_settingMainScF_to_profileFSettingAct"
+            app:destination="@id/profileFSettingAct" />
+        <action
+            android:id="@+id/action_settingMainScF_to_TNcFSettingAct"
+            app:destination="@id/TNcFSettingAct" />
+        <action
+            android:id="@+id/action_settingMainScF_to_loginNSignupMainFrag"
+            app:destination="@id/loginNSignupMainFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginNSignupMainFrag"
+        android:name="com.example.knowledgespaceapk.loginNSignupMainFrag"
+        android:label="fragment_login_n_signup_main"
+        tools:layout="@layout/fragment_login_n_signup_main" />
+</navigation>

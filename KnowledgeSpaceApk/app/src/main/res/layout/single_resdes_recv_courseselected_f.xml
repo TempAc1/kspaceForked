@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardVSingleRedDRecVCourseSelectedF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/chapterNameSingleRDCourseSelectedF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:minHeight="48dp"
+            android:paddingTop="5dp"
+            android:text="Chapter Name"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/totalNoOfModulesTvSingleRDCourseSelectedF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingTop="5dp"
+            app:autoSizeMaxTextSize="30dp"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
