@@ -7,7 +7,7 @@ public class dataModelPostCollection {
 
 
     public dataModelPostCollection(){
-       //no-args constructor
+       //gffdfdfno-args constructor
     }
     public dataModelPostCollection(String postTitle, String postDesc, String postAttachments, String postTimestamp, String postAuthor, String instituteID) {
         this.postTitle = postTitle;
