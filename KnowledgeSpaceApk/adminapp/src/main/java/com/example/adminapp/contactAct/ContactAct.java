@@ -1,11 +1,13 @@
 package com.example.adminapp.contactAct;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -16,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.adminapp.R;
+import com.example.adminapp.contactAct.MVCARCHITECTURECONTACTACT.dataModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -26,8 +29,13 @@ public class ContactAct extends AppCompatActivity {
     private SearchView searchView;
     private adapterRecV itemAdapter;
     private FloatingActionButton add_fab;
-    private ImageView btnCancel;
+    private ImageView btnCancel,imgVCustomDialog;
     private Button saveBtn;
+
+
+
+
+    final int selectPic = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +59,9 @@ public class ContactAct extends AppCompatActivity {
     }
 
     private void addFabOnPress() {
+
+
+
         add_fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,6 +72,17 @@ public class ContactAct extends AppCompatActivity {
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.getWindow().getAttributes().windowAnimations = R.style.animation;
 
+
+                imgVCustomDialog = dialog.findViewById(R.id.imgVCustomDialog);
+                imgVCustomDialog.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i =  new Intent();
+                        i.setType("image/**");
+                        i.setAction(i.ACTION_GET_CONTENT);
+                        startActivityForResult(Intent.createChooser(i,"Select Picture"),selectPic);
+                    }
+                });
 
                 btnCancel = dialog.findViewById(R.id.cancelBtnPopupDialogFinalAddHof);
                 saveBtn = dialog.findViewById(R.id.postBtnCusDiaDisPanelMainScFAdm);
@@ -83,6 +105,19 @@ public class ContactAct extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(resultCode == RESULT_OK){
+            if(requestCode == selectPic){
+                if(data!=null){
+                    imgVCustomDialog.setImageURI(data.getData());
+                }
+            }
+        }
     }
 
     private void search() {

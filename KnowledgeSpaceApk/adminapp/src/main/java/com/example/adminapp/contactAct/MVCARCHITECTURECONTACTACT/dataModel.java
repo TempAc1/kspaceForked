@@ -1,4 +1,4 @@
-package com.example.adminapp.contactAct;
+package com.example.adminapp.contactAct.MVCARCHITECTURECONTACTACT;
 
 public class dataModel {
     private String contactName;
