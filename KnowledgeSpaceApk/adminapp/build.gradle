@@ -1,11 +1,15 @@
 plugins {
     id 'com.android.application'
     id("com.google.gms.google-services")
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
 
     compileSdk 34
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
     defaultConfig {
         applicationId "com.example.adminapp"
         minSdk 21
@@ -31,6 +35,10 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     namespace 'com.example.adminapp'
+
+    viewBinding{
+        enabled = true
+    }
 }
 
 dependencies {
@@ -41,6 +49,8 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
     implementation 'com.google.firebase:firebase-firestore:24.10.1'
     implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'androidx.databinding:databinding-runtime:8.2.2'
+    implementation 'androidx.core:core-ktx:+'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
